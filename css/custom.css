@@ -1,0 +1,8 @@
+*{
+	border:solid 1px black;
+}
+
+#banner{
+	height:200px;
+	background:red;
+}
