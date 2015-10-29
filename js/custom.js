@@ -9,7 +9,6 @@ $(document).ready(function(){
 	var option;
 	var email;
 
-	
 
 	//user click submit
 	$("#submitButton").click(function(){
