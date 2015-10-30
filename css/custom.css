@@ -8,13 +8,21 @@
 	color: black;
 }
 
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+
 #banner{
 	height: 33%;
 	/*background-size: 100%;
-	background-image:url("../img/navimg.png");*/ 
+	backgsround-image:url("../img/navimg.png");*/ 
 	max-height: 100%; 
-	width: 100%;
-	padding-right: 0px;
+	width: 100vw;
+	margin-right: 0px;
+	margin-left: 0px;
 
 }
 
@@ -24,6 +32,16 @@
 	text-align: center;
 	background-color: #c0bcb2;
 	font-family: verdana;
+}
+
+.col-md-3:hover{
+	background-color: #555f53;
+	color: white;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: inherit;
 }
 
 .col-md-4, .col-md-8 {
@@ -47,6 +65,11 @@
 	margin-left: 95px;
 }
 
+#topimage {
+	margin-left: 295px;
+}
+
+
 h5 {
 	font-size: 20px;
 	font-family: verdana;
@@ -58,8 +81,20 @@ p {
 	font-family: verdana;
 }
 
+#main1 {
+	background-image: url("../img/market.jpg");
+	width: 100%;
+}
+#main2 {
+	background-image: url("../img/market.jpg");
+	width: 100%;
+}
+#main3 {
+	background-image: url("../img/market.jpg");
+	width: 100%;
+}
 
-#main {
+#main4 {
 	background-image: url("../img/market.jpg");
 	width: 100%;
 }
