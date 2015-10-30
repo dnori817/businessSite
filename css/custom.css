@@ -2,7 +2,9 @@
 	border:solid 1px black;
 }
 */
-
+body {
+	background-color: #c0bcb2;
+}
 
 .nav {
 	color: black;
@@ -15,15 +17,19 @@
 
 
 
+
+
 #banner{
 	height: 33%;
 	/*background-size: 100%;
 	backgsround-image:url("../img/navimg.png");*/ 
 	max-height: 100%; 
-	width: 100vw;
-	margin-right: 0px;
-	margin-left: 0px;
+	width: 100%;
+	margin-right: 15px;
+	margin-left: -15px;
 
+
+	
 }
 
 .col-md-3 {
