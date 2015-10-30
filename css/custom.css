@@ -46,17 +46,17 @@ body {
 }
 
 a:link, a:visited{
-	text-decoration: none;
+	/*text-decoration: none;*/
 	color: inherit;
 }
 
 .col-md-4, .col-md-8 {
-	height: 1000px;
+	height: 750px;
 }
 
 #sidebar {
 	background-color: rgba(212, 163, 144, .5);
-	height: 1000px
+	height: 750px
 }
 
 
@@ -87,16 +87,20 @@ p {
 	font-family: verdana;
 }
 
+.recipe {
+	text-decoration: underline;
+}
+
 #main1 {
-	background-image: url("../img/market.jpg");
+	background-image: url("../img/bgspice.jpg");
 	width: 100%;
 }
 #main2 {
-	background-image: url("../img/market.jpg");
+	background-image: url("../img/greek1.jpg");
 	width: 100%;
 }
 #main3 {
-	background-image: url("../img/market.jpg");
+	background-image: url("../img/bgcurry.jpg");
 	width: 100%;
 }
 
